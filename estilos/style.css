@@ -30,9 +30,9 @@ section#telefone {
     background: url('../imagens/frame-iphone.png') no-repeat;
 
     position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%; /*Centraliza a tela conforme celular neste projeto*/
+    left: 50%; /*Centraliza a tela conforme celular neste projeto*/
+    transform: translate(-50%, -50%); /*Centraliza a tela conforme celular neste projeto*/
 }
 
 iframe#tela {
@@ -41,6 +41,23 @@ iframe#tela {
     left: 22px;
     width: 269px;
     height: 471px;
+}
 
+section#redes-sociais {
+    text-align: right;
+}
 
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /*FAZ O ICONE FICAR REDONDO*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400); /*FAZ O  EFEITO DE SOBRA PARACENDO QUE O BOTÃO É CLICÁVEL*/
+    box-sizing: border-box; /*NÃO VAI DEIXAR O BOTÃO MOVIMENTAR APÓS O EFEITO DO HOVER FEITO ABAIXO*/
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600); /*EFEITO DE BORDA PARA QUANDO O MOUSE PASSAR SOBRE O BOTÃO*/
+    transform: translate(-3px, -3px); /*EFEITO DE SUSPENDER O BOTÃO*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600); /*EFEITO DE SUSPENDER O BOTÃO*/
+    transition: transform 0.3s, 0.4s; /*EFEITO DE SUSPENDER O BOTÃO - TEMPO DO BOTÃO*/
 }
