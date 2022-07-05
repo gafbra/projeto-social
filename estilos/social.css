@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    /*ESCONDE O SCROLLBAR*/
+    width: 0px;
+    /*ESCONDE O SCROLLBAR*/
+    height: 0px;
+    /*ESCONDE O SCROLLBAR*/
+}
+
+img {
+    width: 100vw;
+
+}
+
+a {
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    /*CENTRALIZA O TEXTO*/
+    font-weight: bolder;
+    text-decoration: none;
+    /*EXCLUI O SUBLINHADO DO LINK*/
+}
+
+a:hover {
+    /*DESTACA O BOTÃO QUANDO O MOUSE PASSA*/
+    background-color: red;
+}
